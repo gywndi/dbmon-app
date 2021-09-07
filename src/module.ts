@@ -1,24 +1,24 @@
 import { ComponentClass } from 'react';
-import { ExampleConfigCtrl } from './legacy/config';
+import { ConfigCtrl } from './legacy/config';
 import { AppPlugin, AppRootProps } from '@grafana/data';
-import { ExamplePage1 } from './config/ExamplePage1';
-import { ExamplePage2 } from './config/ExamplePage2';
-import { ExampleRootPage } from './ExampleRootPage';
-import { ExampleAppSettings } from './types';
+import { Page1 } from './config/Page1';
+import { Page2 } from './config/Page2';
+import { RootPage } from './RootPage';
+import { AppSettings } from './types';
 
-export { ExampleConfigCtrl as ConfigCtrl };
+export { ConfigCtrl as ConfigCtrl };
 
-export const plugin = new AppPlugin<ExampleAppSettings>()
-  .setRootPage((ExampleRootPage as unknown) as ComponentClass<AppRootProps>)
+export const plugin = new AppPlugin<AppSettings>()
+  .setRootPage((RootPage as unknown) as ComponentClass<AppRootProps>)
   .addConfigPage({
     title: 'Page 1',
     icon: 'info-circle',
-    body: ExamplePage1,
+    body: Page1,
     id: 'page1',
   })
   .addConfigPage({
     title: 'Page 2',
     icon: 'user',
-    body: ExamplePage2,
+    body: Page2,
     id: 'page2',
   });

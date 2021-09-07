@@ -46,15 +46,143 @@
       "role": "Admin",
       "addToNav": true
     },
+    { "type": "panel", "name": "pmm-qan-app-panel" },
     {
       "type": "dashboard",
-      "name": "Streaming Example",
-      "path": "dashboards/streaming.json"
+      "name": "Home Dashboard",
+      "path": "dashboards/Home_Dashboard.json",
+      "addToNav": false,
+      "defaultNav": true
     },
     {
       "type": "dashboard",
-      "name": "Lots of Stats",
-      "path": "dashboards/stats.json"
+      "name": "MySQL InnoDB Compression Details",
+      "path": "dashboards/MySQL_InnoDB_Compression_Details.json"
+    },
+    {
+      "type": "dashboard",
+      "name": "MySQL Command Handler Counters Compare",
+      "path": "dashboards/MySQL_Command_Handler_Counters_Compare.json"
+    },
+    {
+      "type": "dashboard",
+      "name": "MySQL Amazon Aurora Details",
+      "path": "dashboards/MySQL_Amazon_Aurora_Details.json"
+    },
+    {
+      "type": "dashboard",
+      "name": "Advanced_Data_Exploration",
+      "path": "dashboards/Advanced_Data_Exploration.json"
+    },
+    {
+      "type": "dashboard",
+      "name": "MySQ Query Response Time Details",
+      "path": "dashboards/MySQL_Query_Response_Time_Details.json"
+    },
+    {
+      "type": "dashboard",
+      "name": "MySQL Instance Summary",
+      "path": "dashboards/MySQL_Instance_Summary.json"
+    },
+    {
+      "type": "dashboard",
+      "name": "MySQL Performance Schema Details",
+      "path": "dashboards/MySQL_Performance_Schema_Details.json"
+    },
+    {
+      "type": "dashboard",
+      "name": "MySQ Wait Event Analyses Details",
+      "path": "dashboards/MySQL_Wait_Event_Analyses_Details.json"
+    },
+    {
+      "type": "dashboard", 
+      "name": "MySQL User Details", 
+      "path": "dashboards/MySQL_User_Details.json" 
+    },
+    {
+      "type": "dashboard",
+      "name": "CPU Utilization Details",
+      "path": "dashboards/CPU_Utilization_Details.json"
+    },
+    { 
+      "type": "dashboard", 
+      "name": "Node Summary", 
+      "path": "dashboards/Node_Summary.json" 
+    },
+    { 
+      "type": "dashboard", 
+      "name": "MySQL TokuDB Details", 
+      "path": "dashboards/MySQL_TokuDB_Details.json" 
+    },
+    { 
+      "type": "dashboard", 
+      "name": "MySQL InnoDB Details", 
+      "path": "dashboards/MySQL_InnoDB_Details.json" 
+    },
+    { 
+      "type": "dashboard", 
+      "name": "MySQL Table Details", 
+      "path": "dashboards/MySQL_Table_Details.json" 
+    },
+    { 
+      "type": "dashboard", 
+      "name": "NUMA Details", 
+      "path": "dashboards/NUMA_Details.json" 
+    },
+    {
+      "type": "dashboard",
+      "name": "MySQL Replication Summary",
+      "path": "dashboards/MySQL_Replication_Summary.json"
+    },
+    {
+      "type": "dashboard",
+      "name": "MySQL Group Replication Summary",
+      "path": "dashboards/MySQL_Group_Replication_Summary.json"
+    },
+    { 
+      "type": "dashboard", 
+      "name": "Network Details", 
+      "path": "dashboards/Network_Details.json" 
+    },
+    { 
+      "type": "dashboard", 
+      "name": "Nodes Compare", 
+      "path": "dashboards/Nodes_Compare.json" 
+    },
+    { 
+      "type": "dashboard", 
+      "name": "Nodes Overview", 
+      "path": "dashboards/Nodes_Overview.json" 
+    },
+    { 
+      "type": "dashboard", 
+      "name": "Memory Details", 
+      "path": "dashboards/Memory_Details.json" 
+    },
+    { 
+      "type": "dashboard", 
+      "name": "Processes Details", 
+      "path": "dashboards/Processes_Details.json" 
+    },
+    {
+      "type": "dashboard",
+      "name": "MySQL Instances Overview",
+      "path": "dashboards/MySQL_Instances_Overview.json"
+    },
+    {
+      "type": "dashboard",
+      "name": "MySQL Instances Compare",
+      "path": "dashboards/MySQL_Instances_Compare.json"
+    },
+    { 
+      "type": "dashboard", 
+      "name": "Disk Details", 
+      "path": "dashboards/Disk_Details.json" 
+    },
+    {
+      "type": "dashboard",
+      "name": "Node Temperature Details",
+      "path": "dashboards/Node_Temperature_Details.json"
     }
   ],
 
