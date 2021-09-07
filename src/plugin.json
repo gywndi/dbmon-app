@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "app",
-  "name": "Simple App",
-  "id": "myorgid-simple-app",
+  "name": "DBmon App",
+  "id": "dbmon-app",
 
   "info": {
-    "description": "Grafana App Plugin Template",
+    "description": "DBmon app for Grafana",
     "author": {
-      "name": "Your Name"
+      "name": "gywndi@gmail.com"
     },
     "keywords": ["panel", "template"],
     "logos": {
@@ -15,8 +15,8 @@
       "large": "img/logo.svg"
     },
     "links": [
-      { "name": "Website", "url": "https://github.com/grafana/grafana-starter-app" },
-      { "name": "License", "url": "https://github.com/grafana/grafana-starter-app/blob/master/LICENSE" }
+      { "name": "Website", "url": "https://github.com/gywndi/dbmon-app" },
+      { "name": "License", "url": "https://github.com/gywndi/dbmon-app/blob/master/LICENSE" }
     ],
     "screenshots": [],
     "version": "%VERSION%",

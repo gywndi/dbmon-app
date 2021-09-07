@@ -1,7 +1,7 @@
 {
-  "name": "simple-app",
+  "name": "dbmon-app",
   "version": "1.0.0",
-  "description": "Grafana App Plugin Template",
+  "description": "Grafana DBmon App Plugin",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
     "test": "grafana-toolkit plugin:test",
@@ -10,7 +10,7 @@
     "sign": "grafana-toolkit plugin:sign",
     "start": "yarn watch"
   },
-  "author": "Grafana Labs",
+  "author": "gywndi@gmail.com",
   "license": "Apache-2.0",
   "devDependencies": {
     "@grafana/data": "latest",
